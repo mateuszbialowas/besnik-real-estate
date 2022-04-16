@@ -1,7 +1,5 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -10,8 +8,10 @@ module.exports = {
         "bg-light": "#E6F0FF",
         "gray-dark": "#687690",
         "gray-light": "#4F5361",
+        "secondary-dark": "#3B3C45",
+        "blue-primary": "#0689FF",
       },
     },
   },
   plugins: [],
-}
+};
