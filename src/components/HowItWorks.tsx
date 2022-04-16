@@ -7,7 +7,7 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 export default function HowItWorks() {
   return (
-    <div className="container mx-auto py-20 px-2 text-center">
+    <div className="container mx-auto px-2 text-center">
       <div className="mx-auto h-1 w-10 rounded-sm bg-primary-dark" />
       <h2 className="py-3 text-4xl font-semibold text-primary-dark">
         How its works?
