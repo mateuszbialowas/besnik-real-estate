@@ -4,6 +4,7 @@ import Navabar from "./Navbar";
 import Header from "./Header";
 import ClientsSection from "./ClientsSection";
 import HowItWorks from "./components/HowItWorks";
+import Feature1 from "./components/Feature1";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <ClientsSection />
       <HowItWorks />
+      <Feature1/>
     </>
   );
 }
