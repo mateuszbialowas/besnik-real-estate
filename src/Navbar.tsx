@@ -11,7 +11,7 @@ export default function Navbar() {
   };
   return (
     <nav className="bg-bg-light py-9 px-2">
-      <div className="container mx-auto flex flex-wrap items-center">
+      <div className="container mx-auto flex flex-wrap items-center md:flex-nowrap">
         <a href="/">
           <img src={logo} alt="logo" />
         </a>
@@ -27,7 +27,7 @@ export default function Navbar() {
           <FontAwesomeIcon className="hidden h-6 w-6" icon={faXmark} />
         </button>
         <div
-          className="hidden w-full md:ml-12 md:flex md:w-auto md:items-center"
+          className="transition-all hidden w-full md:ml-12 md:flex md:items-center"
           id="mobile-menu"
         >
           <ul className="mt-4 flex flex-col text-gray-light md:mt-0 md:flex-row md:text-sm">
@@ -48,7 +48,7 @@ export default function Navbar() {
             </li>
           </ul>
 
-          <div className="flex flex-col whitespace-nowrap md:ml-[100%] md:flex-row md:items-center">
+          <div className="flex flex-col whitespace-nowrap md:ml-auto md:flex-row md:items-center">
             <a className="p-4 font-medium text-primary-dark" href="/">
               Sign up
             </a>
